@@ -28,6 +28,7 @@ const MESSAGE_TYPE = {
   PERSONAL_SIGN: 'personal_sign',
   WATCH_ASSET: 'wallet_watchAsset',
   WATCH_ASSET_LEGACY: 'metamask_watchAsset',
+  ADD_ETHEREUM_CHAIN: 'wallet_addEthereumChain',
 }
 
 export {
