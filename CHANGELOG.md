@@ -1,42 +1,22 @@
 # Changelog
 
 ## Current Develop Branch
-- [#9992](https://github.com/MetaMask/metamask-extension/pull/9992): Update transaction params validation (#9992)
-- [#9996](https://github.com/MetaMask/metamask-extension/pull/9996): Add timeout to `wait-until-called` (#9996)
-- [#10002](https://github.com/MetaMask/metamask-extension/pull/10002): Sync `master` with `develop`
-- [#10004](https://github.com/MetaMask/metamask-extension/pull/10004): Bump highlight.js from 10.4.0 to 10.4.1 (#10004)
-- [#9991](https://github.com/MetaMask/metamask-extension/pull/9991): Fix 9988 - Don't allow more than 15% slippage (#9991)
-- [#9994](https://github.com/MetaMask/metamask-extension/pull/9994): Fix 9906 - Prevent unwanted 'no quotes available' message when going back to build quote screen while having insufficient funds (#9994)
-- [#10001](https://github.com/MetaMask/metamask-extension/pull/10001): Prevent props error in swaps gas modal (#10001)
-- [#8629](https://github.com/MetaMask/metamask-extension/pull/8629): Fix Infura network chain IDs (#8629)
-- [#9999](https://github.com/MetaMask/metamask-extension/pull/9999): Initialize network controller provider chainId to the appropriate default networks (#9999)
-- [#9156](https://github.com/MetaMask/metamask-extension/pull/9156): Remove web3 injection (#9156)
-- [#10013](https://github.com/MetaMask/metamask-extension/pull/10013): Add SES lockdown and Sentry to all pages (#10013)
-- [#10012](https://github.com/MetaMask/metamask-extension/pull/10012): Deobfuscate error message (#10012)
-- [#10016](https://github.com/MetaMask/metamask-extension/pull/10016): Fix unbound metrics track function (#10016)
-- [#9905](https://github.com/MetaMask/metamask-extension/pull/9905): Reapply view quote screen designs (#9905)
-- [#10014](https://github.com/MetaMask/metamask-extension/pull/10014): Fix SES lockdown on older browsers (#10014)
-- [#10018](https://github.com/MetaMask/metamask-extension/pull/10018): Log persistence errors with Sentry (#10018)
-- [#8640](https://github.com/MetaMask/metamask-extension/pull/8640): @metamask/inpage-provider@^8.0.0 (#8640)
-- [#9320](https://github.com/MetaMask/metamask-extension/pull/9320): Add hidden tokens to store (#9320)
-- [#9945""](https://github.com/MetaMask/metamask-extension/pull/9945""): Revert "Revert "Remove redundant babelify (#9945)""
-- [#9729""](https://github.com/MetaMask/metamask-extension/pull/9729""): Revert "Revert "Add SES lockdown to extension webapp (#9729)""
-- Merge remote-tracking branch 'origin/develop' into sync-master
-- [#10025](https://github.com/MetaMask/metamask-extension/pull/10025): Sync `master` with `develop`
-- [#10026](https://github.com/MetaMask/metamask-extension/pull/10026): Rename `lockdown.cjs` to `lockdown.js` (#10026)
-- [#10028](https://github.com/MetaMask/metamask-extension/pull/10028): Update `tweetnacl` dependencies (#10028)
-- [#10030](https://github.com/MetaMask/metamask-extension/pull/10030): Fix TokenList component name (#10030)
-- Merge remote-tracking branch 'origin/develop' into sync-master
-- [#10033](https://github.com/MetaMask/metamask-extension/pull/10033): Sync `master` with `develop`
-- [#10019](https://github.com/MetaMask/metamask-extension/pull/10019): Increase Chrome minimum version (#10019)
-- [#10034](https://github.com/MetaMask/metamask-extension/pull/10034): Fix contentscript injection failure on Firefox 56 (#10034)
-- [#10045](https://github.com/MetaMask/metamask-extension/pull/10045): Fix token validation in Send flow (#10045)
-- [#10000](https://github.com/MetaMask/metamask-extension/pull/10000): Use consistent font size for modal top right Close links (#10000)
-- [#10046](https://github.com/MetaMask/metamask-extension/pull/10046): Refactor home notification (#10046)
-- [#10039](https://github.com/MetaMask/metamask-extension/pull/10039): Add web3 shim usage notification (#10039)
-- Version v9.0.0
 
 ## 9.0.0 Fri Dec 11 2020
+- [#9156](https://github.com/MetaMask/metamask-extension/pull/9156): Remove window.web3 injection 
+- [#8640](https://github.com/MetaMask/metamask-extension/pull/8640): Implement breaking window.ethereum API changes
+- [#8629](https://github.com/MetaMask/metamask-extension/pull/8629): Fix `eth_chainId` return values for Infura networks
+- [#10019](https://github.com/MetaMask/metamask-extension/pull/10019): Increase Chrome minimum version to v63
+- [#10034](https://github.com/MetaMask/metamask-extension/pull/10034): Fix contentscript injection failure on Firefox 56
+- [#9729](https://github.com/MetaMask/metamask-extension/pull/9729): Restore SES lockdown
+- [#10026](https://github.com/MetaMask/metamask-extension/pull/10026): Fix SES lockdown on Firefox
+- [#10014](https://github.com/MetaMask/metamask-extension/pull/10014): Fix SES lockdown on older browsers
+- [#10045](https://github.com/MetaMask/metamask-extension/pull/10045): Fix token validation in Send flow
+- [#9992](https://github.com/MetaMask/metamask-extension/pull/9992): Improve transaction params validation
+- [#9905](https://github.com/MetaMask/metamask-extension/pull/9905): Redesign view quote screens
+- [#9320](https://github.com/MetaMask/metamask-extension/pull/9320): Prevent hidden tokens from reappearing
+- [#10000](https://github.com/MetaMask/metamask-extension/pull/10000): Use consistent font size for modal top right Close links
+- [#10046](https://github.com/MetaMask/metamask-extension/pull/10046): Improve home screen notification appearance
 
 ## 8.1.8 Wed Dec 09 2020
 - [#9992](https://github.com/MetaMask/metamask-extension/pull/9992): Improve transaction params validation
