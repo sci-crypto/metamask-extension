@@ -3,6 +3,8 @@
 ## Current Develop Branch
 - [#10048](https://github.com/MetaMask/metamask-extension/pull/10048): Display boolean values when signing typed data
 
+## 9.0.0 Fri Dec 11 2020
+
 ## 8.1.8 Wed Dec 09 2020
 - [#9992](https://github.com/MetaMask/metamask-extension/pull/9992): Improve transaction params validation
 - [#9991](https://github.com/MetaMask/metamask-extension/pull/9991): Don't allow more than 15% slippage
