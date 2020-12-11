@@ -12,6 +12,7 @@
 - [#10026](https://github.com/MetaMask/metamask-extension/pull/10026): Fix SES lockdown on Firefox
 - [#10014](https://github.com/MetaMask/metamask-extension/pull/10014): Fix SES lockdown on older browsers
 - [#10045](https://github.com/MetaMask/metamask-extension/pull/10045): Fix token validation in Send flow
+- [#10048](https://github.com/MetaMask/metamask-extension/pull/10048): Fix display of boolean values when signing typed data
 - [#9992](https://github.com/MetaMask/metamask-extension/pull/9992): Improve transaction params validation
 - [#9905](https://github.com/MetaMask/metamask-extension/pull/9905): Redesign view quote screens
 - [#9320](https://github.com/MetaMask/metamask-extension/pull/9320): Prevent hidden tokens from reappearing
