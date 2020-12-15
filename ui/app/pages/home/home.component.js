@@ -106,6 +106,8 @@ export default class Home extends PureComponent {
       history.push(CONFIRM_TRANSACTION_ROUTE)
     } else if (Object.keys(suggestedTokens).length > 0) {
       history.push(CONFIRM_ADD_SUGGESTED_TOKEN_ROUTE)
+    } else if (false) {
+      history.push(ADD_ETHEREUM_CHAIN_REQUEST_ROUTE)
     }
   }
 

@@ -15,7 +15,7 @@ async function addEthereumChainHandler(
   res,
   _next,
   end,
-  { origin, addCustomRpc, customRpcExistsWith, requestUserApproval },
+  { addCustomRpc, customRpcExistsWith, requestUserApproval },
 ) {
   if (!req.params?.[0] || typeof req.params[0] !== 'object') {
     return end(
@@ -24,6 +24,8 @@ async function addEthereumChainHandler(
       }),
     )
   }
+
+  const { origin } = req
 
   const {
     chainId,

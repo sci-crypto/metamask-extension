@@ -1,5 +1,6 @@
 import { stripHexPrefix } from 'ethereumjs-util'
 import { createSelector } from 'reselect'
+import { MESSAGE_TYPE } from '../../../app/scripts/lib/enums'
 import { addHexPrefix } from '../../../app/scripts/lib/util'
 import { NETWORK_TYPES } from '../helpers/constants/common'
 import {
@@ -272,6 +273,13 @@ export function getTotalUnapprovedCount(state) {
 function getUnapprovedTxCount(state) {
   const { unapprovedTxs = {} } = state.metamask
   return Object.keys(unapprovedTxs).length
+}
+
+export function getUnapprovedAddEthereumChainRequests(state) {
+  const { pendingApprovals } = state.metamask
+  return Object.values(pendingApprovals).filter((approval) => {
+    return approval.type === MESSAGE_TYPE.ADD_ETHEREUM_CHAIN
+  })
 }
 
 function getSuggestedTokenCount(state) {
